@@ -1,0 +1,6 @@
+Symbol=EURUSD
+Period=M5
+FromDate=2017.01.01
+ToDate=2017.05.01
+Deposit=10000
+Leverage=1:100

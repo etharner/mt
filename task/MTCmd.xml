@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MTCmd>
+	<MT5>C:\Program Files\MetaTrader 5\</MT5>
+	<MTAdvisors>MQL5\Experts\Advisors\</MTAdvisors>
+	<MTTerminal>terminal64.exe /portable</MTTerminal>
+	<MTCopy>cmd.exe /c copy</MTCopy>
+	<MTCompile>metaeditor64.exe /compile:</MTCompile>
+</MTCmd>
+

@@ -1,0 +1,3 @@
+[submodule "spawner-bin"]
+	path = spawner-bin
+	url = https://github.com/klenin/spawner-bin

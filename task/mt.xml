@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CATS version="1.5">
+<Problem title="MetaTrader" lang="en" tlimit="100" mlimit="2048"
+   author="mt" inputFile="in.txt" outputFile="out.txt">
+<ProblemStatement>
+</ProblemStatement>
+
+<InputFormat>
+</InputFormat>
+
+<OutputFormat>
+</OutputFormat>
+
+<ProblemConstraints>
+</ProblemConstraints>
+
+<Run method="interactive" />
+<Solution name="sol" src="ExpertMACD.mq5" />
+
+<Module name="chm" de_code="401" type="solution" src="MTAdapter.java" />
+<Checker name="ch" src="check.py" style="testlib" />
+
+<Test rank="1-1"><In src="tests/1.in" /><Out src="tests/1.out" /></Test>
+</Problem>
+</CATS>
