@@ -42,7 +42,7 @@ public class MTCmd {
 	}
 
 	public void mtSetExpert() {
-		String cmd = this.mtCopy + " " + this.mtConfig.getMtExpert() + " \"" + this.mt5 + this.mtAdvisors + "\"";
+		String cmd = this.mtCopy + " ..\\" + this.mtConfig.getMtExpert() + " \"" + this.mt5 + this.mtAdvisors + "\"";
 		this.execCommand(cmd);
 		this.mtCompile();
 	}
@@ -54,7 +54,7 @@ public class MTCmd {
 		String[] files = {".htm", ".png", "-holding.png", "-hst.png", "-mfemae.png"};
 
 		for (String s: files) {
-			cmd = this.mtCopy + " \"" + this.mt5 + this.mtConfig.getMtReport() + s + "\" .";
+			cmd = this.mtCopy + " \"" + this.mt5 + this.mtConfig.getMtReport() + s + "\" .\\results\\";
 			this.execCommand(cmd);
 		}
 	}
